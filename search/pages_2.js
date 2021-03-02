@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nextion_20editor_20information_47',['Nextion Editor Information',['../page3.html',1,'']]]
+  ['nextion_20editor_47',['Nextion Editor',['../page3.html',1,'']]]
 ];
