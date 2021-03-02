@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['setup_16',['setup',['../main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d',1,'main.cpp']]]
+  ['nextion_20editor_20information_16',['Nextion Editor Information',['../page3.html',1,'']]]
 ];
