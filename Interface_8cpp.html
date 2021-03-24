@@ -198,6 +198,9 @@ uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="I
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file contains the function files for the RTOS tasks used with the interface controller. It manages three tasks: display, CAN, and hall effect. In the display task, the controller interfaces with a Nextion display using the EasyNextionLibrary header file. The controller communicates with the Nextion using UART. In the CAN task, the controller interfaces with an MCP2515 CAN controller using SPI, which outputs a CAN signal to the CAN bus. In the hall effect task, the controller reads a GPIO pin using a polling method.</p>
+<p>As discussed in the section, <a class="el" href="index.html#s_software">Software Design</a>, the task with the highest priority is <a class="el" href="Interface_8cpp.html#a6d50525ab6bbea9007958d7feaf83360" title="Task which reads a hall effect sensor.">task_HALL1()</a>, which must quickly poll the hall effect sensor to measure the speed of the vehicle. A high-level task diagram is shown in Figure 1.</p>
+<p><img src="https://raw.githubusercontent.com/jkochavi/Fluid-Power-Controller/master/wiki_Support_Files/fig19.png" alt="" style="width:400px;" class="inline"/> <br  />
+<b>Figure 1.</b> Inter-controller system boundary diagram.</p>
 <dl class="section author"><dt>Author</dt><dd>Jordan Kochavi</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>8 Dec 2020 Original file </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
