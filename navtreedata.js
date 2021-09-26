@@ -24,15 +24,15 @@
 */
 var NAVTREE =
 [
-  [ "Cal Poly NFPA Vehicle Challenge", "index.html", [
-    [ "Wiki Overview", "index.html#s_overview", null ],
-    [ "Project Introduction", "index.html#s_intro", null ],
-    [ "Hardware Design", "index.html#s_hardware", null ],
-    [ "Software Design", "index.html#s_software", null ],
-    [ "Enclosure Design", "index.html#s_enclosures", null ],
-    [ "Results and Improvements", "index.html#s_results", null ],
-    [ "Interface Usage Tutorial Video", "index.html#s_tutorial", null ],
-    [ "Total Costs", "index.html#s_cost", null ],
+  [ "Cal Poly NFPA Vehicle Challenge", "fpvc_index.html", [
+    [ "Wiki Overview", "fpvc_index.html#s_overview", null ],
+    [ "Project Introduction", "fpvc_index.html#s_intro", null ],
+    [ "Hardware Design", "fpvc_index.html#s_hardware", null ],
+    [ "Software Design", "fpvc_index.html#s_software", null ],
+    [ "Enclosure Design", "fpvc_index.html#s_enclosures", null ],
+    [ "Results and Improvements", "fpvc_index.html#s_results", null ],
+    [ "Interface Usage Tutorial Video", "fpvc_index.html#s_tutorial", null ],
+    [ "Total Costs", "fpvc_index.html#s_cost", null ],
     [ "HF Impulse", "page2.html", null ],
     [ "Nextion Editor", "page3.html", null ],
     [ "Controller Area Network (CAN)", "page4.html", null ],
